@@ -37,7 +37,6 @@ def checkLength(inputArray):
 def allLongestStrings(inputArray):
     i = 0
     length = checkLength(inputArray)
-    print(length)
     output = []
     for i in range(len(inputArray)):
         if len(inputArray[i]) == length:
